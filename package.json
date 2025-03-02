@@ -1,11 +1,11 @@
 {
-  "name": "yoom",
+  "name": "playspot",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start:prod": "next start -p 3030",
     "lint": "next lint"
   },
   "dependencies": {
